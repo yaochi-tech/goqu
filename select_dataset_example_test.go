@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/doug-martin/goqu/v9"
-	"github.com/doug-martin/goqu/v9/exp"
 	"github.com/lib/pq"
+	"github.com/yaochi-tech/goqu"
+	"github.com/yaochi-tech/goqu/exp"
 )
 
 const schema = `

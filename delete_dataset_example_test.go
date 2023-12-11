@@ -3,8 +3,8 @@ package goqu_test
 import (
 	"fmt"
 
-	"github.com/doug-martin/goqu/v9"
-	_ "github.com/doug-martin/goqu/v9/dialect/mysql"
+	"github.com/yaochi-tech/goqu"
+	_ "github.com/yaochi-tech/goqu/dialect/mysql"
 )
 
 func ExampleDelete() {

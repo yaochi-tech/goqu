@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/doug-martin/goqu/v9"
-	"github.com/doug-martin/goqu/v9/exp"
-	"github.com/doug-martin/goqu/v9/internal/errors"
-	"github.com/doug-martin/goqu/v9/internal/sb"
-	"github.com/doug-martin/goqu/v9/mocks"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
+	"github.com/yaochi-tech/goqu"
+	"github.com/yaochi-tech/goqu/exp"
+	"github.com/yaochi-tech/goqu/internal/errors"
+	"github.com/yaochi-tech/goqu/internal/sb"
+	"github.com/yaochi-tech/goqu/mocks"
 )
 
 type (

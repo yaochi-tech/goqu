@@ -3,8 +3,8 @@ package sqlite3
 import (
 	"time"
 
-	"github.com/doug-martin/goqu/v9"
-	"github.com/doug-martin/goqu/v9/exp"
+	"github.com/yaochi-tech/goqu"
+	"github.com/yaochi-tech/goqu/exp"
 )
 
 func DialectOptions() *goqu.SQLDialectOptions {

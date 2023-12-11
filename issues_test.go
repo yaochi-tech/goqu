@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/doug-martin/goqu/v9"
-	"github.com/doug-martin/goqu/v9/exp"
 	"github.com/stretchr/testify/suite"
+	"github.com/yaochi-tech/goqu"
+	"github.com/yaochi-tech/goqu/exp"
 )
 
 type githubIssuesSuite struct {

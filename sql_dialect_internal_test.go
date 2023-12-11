@@ -3,10 +3,10 @@ package goqu
 import (
 	"testing"
 
-	"github.com/doug-martin/goqu/v9/exp"
-	"github.com/doug-martin/goqu/v9/internal/sb"
-	"github.com/doug-martin/goqu/v9/sqlgen/mocks"
 	"github.com/stretchr/testify/suite"
+	"github.com/yaochi-tech/goqu/exp"
+	"github.com/yaochi-tech/goqu/internal/sb"
+	"github.com/yaochi-tech/goqu/sqlgen/mocks"
 )
 
 type dialectTestSuite struct {

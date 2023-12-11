@@ -1,7 +1,7 @@
 package postgres
 
 import (
-	"github.com/doug-martin/goqu/v9"
+	"github.com/yaochi-tech/goqu"
 )
 
 func DialectOptions() *goqu.SQLDialectOptions {

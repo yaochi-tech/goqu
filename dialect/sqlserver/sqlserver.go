@@ -1,9 +1,9 @@
 package sqlserver
 
 import (
-	"github.com/doug-martin/goqu/v9"
-	"github.com/doug-martin/goqu/v9/exp"
-	"github.com/doug-martin/goqu/v9/sqlgen"
+	"github.com/yaochi-tech/goqu"
+	"github.com/yaochi-tech/goqu/exp"
+	"github.com/yaochi-tech/goqu/sqlgen"
 )
 
 func DialectOptions() *goqu.SQLDialectOptions {
